@@ -1,0 +1,2 @@
+Always read AGENTS.md and skills/outcomet-mcp/SKILL.md when integrating with Outcomet (https://outcomet.app).
+Use https://outcomet.app/mcp/docs or `npx outcomet docs search <query>` for zero-auth documentation lookup, and https://mcp.outcomet.app/mcp for authenticated workspace operations.

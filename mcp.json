@@ -1,0 +1,33 @@
+{
+  "schema_version": "2025-06-18",
+  "servers": [
+    {
+      "name": "app.outcomet/mcp",
+      "kind": "product",
+      "title": "Outcomet",
+      "description": "Read customer feedback, problems, and initiatives in your Outcomet workspace over OAuth MCP.",
+      "version": "1.0.0",
+      "endpoint": "https://mcp.outcomet.app/mcp",
+      "url": "https://mcp.outcomet.app/mcp",
+      "transport": "streamable-http",
+      "auth": "oauth2",
+      "documentation": "https://outcomet.app/developers",
+      "server_card": "https://outcomet.app/.well-known/mcp/server-card.json",
+      "card": "https://outcomet.app/.well-known/mcp/server-card.json"
+    },
+    {
+      "name": "app.outcomet/outcomet-docs",
+      "kind": "docs",
+      "title": "Outcomet Documentation",
+      "description": "Read Outcomet's public product model, pricing, and MCP setup guides. No credential required.",
+      "version": "1.0.0",
+      "endpoint": "https://outcomet.app/mcp/docs",
+      "url": "https://outcomet.app/mcp/docs",
+      "transport": "streamable-http",
+      "auth": "none",
+      "documentation": "https://outcomet.app/doc",
+      "server_card": "https://outcomet.app/.well-known/mcp/docs-server-card.json",
+      "card": "https://outcomet.app/.well-known/mcp/docs-server-card.json"
+    }
+  ]
+}

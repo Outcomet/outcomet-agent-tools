@@ -1,0 +1,52 @@
+{
+  "name": "outcomet",
+  "version": "0.1.0",
+  "description": "Official CLI and TypeScript/JavaScript SDK for Outcomet, the AI-native product management platform. Query the sandbox, ask product questions, search docs, and list or call Outcomet MCP tools from the terminal or Node.js.",
+  "type": "module",
+  "homepage": "https://outcomet.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/outcomet/outcomet-agent-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/outcomet/outcomet-agent-tools/issues"
+  },
+  "license": "MIT",
+  "bin": {
+    "outcomet": "bin/outcomet.mjs"
+  },
+  "main": "./src/index.mjs",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.mjs"
+    }
+  },
+  "files": [
+    "bin",
+    "src",
+    "skills",
+    "AGENTS.md",
+    "plugin.json",
+    "mcp.json",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test test/index.test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "outcomet",
+    "product-management",
+    "mcp",
+    "model-context-protocol",
+    "cli",
+    "sdk",
+    "agent",
+    "agent-skills",
+    "agent-plugins"
+  ]
+}
