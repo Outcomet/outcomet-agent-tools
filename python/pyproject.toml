@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "outcomet"
+version = "0.1.0"
+description = "Official CLI and Python SDK for Outcomet, the AI-native product management platform."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Outcomet GmbH", email = "info@outcomet.com" }]
+keywords = ["outcomet", "sdk", "cli", "mcp", "product-management", "agent"]
+dependencies = []
+
+[project.urls]
+Homepage = "https://outcomet.app/developers"
+Documentation = "https://outcomet.app/developers"
+Repository = "https://github.com/Outcomet/outcomet-agent-tools"
+Issues = "https://github.com/Outcomet/outcomet-agent-tools/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/outcomet"]

@@ -2,14 +2,14 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "outcomet",
   "version": "0.1.0",
-  "description": "Official Outcomet agent tools: workspace OAuth MCP server (https://mcp.outcomet.app/mcp), public documentation MCP server (https://outcomet.app/mcp/docs), the outcomet-mcp agent skill under skills/, and the outcomet CLI and SDK.",
+  "description": "Official Outcomet agent tools: workspace OAuth MCP server (https://mcp.outcomet.app/mcp), public documentation MCP server (https://outcomet.app/mcp/docs), 5 agent skills under skills/, and the outcomet CLI and multi-language SDKs.",
   "author": {
-    "name": "Outcomet UG (haftungsbeschränkt)",
-    "email": "andy@crew.outcomet.app",
+    "name": "Outcomet GmbH",
+    "email": "info@outcomet.com",
     "url": "https://outcomet.app"
   },
   "homepage": "https://outcomet.app/developers",
-  "repository": "https://github.com/outcomet/outcomet-agent-tools",
+  "repository": "https://github.com/Outcomet/outcomet-agent-tools",
   "license": "MIT",
   "skills": "./skills",
   "mcpServers": "./mcp.json",
